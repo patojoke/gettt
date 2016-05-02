@@ -56,7 +56,7 @@ For example:
 	"matchtext"		""
 	"players"
 	{
-		"STEAM_0:1:52245092"		""
+		"STEAM_1:1:52245092"		""
 	}
 }
 ```
@@ -71,7 +71,7 @@ For example:
 	"matchtext"		""
 	"players"
 	{
-		"STEAM_0:1:52245092"		""
+		"STEAM_1:0:78189799"		""
 	}
 }
 ```
