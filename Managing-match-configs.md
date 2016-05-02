@@ -6,6 +6,10 @@ This page aims to give advice on managing these config files.
 
 One strategy for storing all the team data is to create a config for each team, then you can use the "fromfile" field when creating match configs.
 
+By using this strategy, you would:
+- Create a team config file for every team in your tournament/league/etc.
+- When a match is played, update the server's match config team1:fromfile and team2:fromfile fields.
+
 For example:
 ``match.cfg``:
 ```
