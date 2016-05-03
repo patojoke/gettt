@@ -28,3 +28,7 @@ Download the smjansson_2.3.1.3_binaries.zip archive from https://forums.alliedmo
 The readme describes the match schema format: https://github.com/splewis/get5#match-schema
 
 I recommend starting from the [example file](https://github.com/splewis/get5/blob/master/configs/get5/example_match.cfg) and modifying it. Note that many fields are optional. Only the "team1" and "team2" sections are actually required. So you can remove the "favored_percentage_team1" field, if you don't want it displayed/have no data for it.
+
+Match configs must be placed anywhere under the ``csgo`` server directory. For example:
+- if your match config is at ``csgo/match.cfg``, you can use ``get5_loadmatch match.cfg``
+- if your match config is at ``csgo/addons/sourcemod/configs/get5/match.cfg``, you can use ``get5_loadmatch addons/sourcemod/configs/get5/match.cfg``
