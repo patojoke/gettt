@@ -1,8 +1,10 @@
 The match config is described in the readme: https://github.com/splewis/get5#match-schema
 
-This page aims to give advice on managing these config files.
+This page aims to give advice on manually managing these config files.
 
 ## Managing team data 
+
+**Note: this requires at least being on a 0.2.0 development build**
 
 One strategy for storing all the team data is to create a config for each team, then you can use the "fromfile" field when creating match configs.
 
