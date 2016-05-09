@@ -2,9 +2,15 @@ The match config is described in the readme: https://github.com/splewis/get5#mat
 
 This page aims to give advice on manually managing these config files.
 
-## Managing team data 
-
 **Note: this requires at least being on a 0.2.0 development build**
+
+## Going *laissez faire*
+
+The cvar ``get5_check_auths`` (which you should set in ``cfg/sourcemod/get5.cfg``, or the match config ``cvars`` section) can be set to 0, which will stop the plugin from forcing players onto the correct team. This means the ``players`` section will not be used, and can be omitted if you don't want to set everyone's steamid. 
+
+This is generally not recommended, as there are great advantages to letting the plugin handle forcing players onto the correct teams and kicking people that shouldn't be in the server.
+
+## Managing team data from separate files
 
 One strategy for storing all the team data is to create a config for each team, then you can use the "fromfile" field when creating match configs.
 
