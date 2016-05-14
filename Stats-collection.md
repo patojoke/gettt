@@ -9,6 +9,30 @@ Under the map level, there is a section for each team ("team1" and "team2) which
 
 Each player has a section under the team level under the section name of their steam64id. It contains all the personal level stats: name, kills, deaths, assists, etc.
 
+Partial Example:
+```
+"Stats"
+{
+        "series_type"        "bo1"
+	"map1"
+	{
+		"mapname"		"de_mirage"
+		"winner"		"team1"
+		"team1"
+		{
+			"score"		"5"
+			"73613643164646"
+			{
+				"name"		"xyz"
+				"kills"		"0"
+				"deaths"		"1"
+				"assists"		"5"
+				"damage"		"1500"
+			}
+		}
+	}
+}
+```
 
 ## What stats are collected
 See the [get5 include](https://github.com/splewis/get5/blob/master/scripting/include/get5.inc#L106) for what stats will be recorded and what their key in the keyvalues structure is.
