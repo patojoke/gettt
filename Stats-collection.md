@@ -13,7 +13,7 @@ Partial Example:
 ```
 "Stats"
 {
-        "series_type"        "bo1"
+    "series_type"        "bo1"
 	"map1"
 	{
 		"mapname"		"de_mirage"
