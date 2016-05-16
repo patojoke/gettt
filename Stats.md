@@ -15,8 +15,10 @@ Partial Example:
 ```
 "Stats"
 {
-    "series_type"        "bo1"
-	"map1"
+	"series_type"        "bo1"
+	"team1_name"        "EnvyUs"
+	"team2_name"        "Fnatic"
+	"map0"
 	{
 		"mapname"		"de_mirage"
 		"winner"		"team1"
@@ -29,7 +31,7 @@ Partial Example:
 				"kills"		"0"
 				"deaths"		"1"
 				"assists"		"5"
-				"damage"		"1500"
+				"damage"		"352"
 			}
 		}
 	}
@@ -39,4 +41,11 @@ Partial Example:
 ## What stats are collected
 See the [get5 include](https://github.com/splewis/get5/blob/master/scripting/include/get5.inc#L127) for what stats will be recorded and what their key in the keyvalues structure is.
 
-## What to do with the stats
+## MySQL stats
+
+Get5 ships with a (disabled by default) plugin called ``get5_mysqlstats`` that will save many of the stats to a MySQL database. To use this:
+- Create the tables using [this schema](https://github.com/splewis/get5/blob/master/misc/import_stats.sql)
+- Configure a ``"get5"`` database section in ``addons/sourcemod/configs/databases.cfg``
+- Make sure the ``get5_mysqlstats`` plugin is enabled (moved up a directory from ``addons/sourcemod/plugins/disabled`` directory)
+
+Note that if you use this module, you can force the matchid used by the stats system by setting the ``get5_mysql_force_matchid`` convar in your matchconfig (the ``"cvars"`` section). If you don't do this, then the get5 matchid will be set to the next matchid returned by inserting into the ``get5_stats_matches`` table.
