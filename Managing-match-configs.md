@@ -87,3 +87,5 @@ For example:
 	}
 }
 ```
+
+Note: this works for both KeyValues and JSON formatted configs.
