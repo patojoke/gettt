@@ -35,6 +35,6 @@ Partial Example:
 ```
 
 ## What stats are collected
-See the [get5 include](https://github.com/splewis/get5/blob/master/scripting/include/get5.inc#L106) for what stats will be recorded and what their key in the keyvalues structure is.
+See the [get5 include](https://github.com/splewis/get5/blob/master/scripting/include/get5.inc#L127) for what stats will be recorded and what their key in the keyvalues structure is.
 
 ## What to do with the stats
