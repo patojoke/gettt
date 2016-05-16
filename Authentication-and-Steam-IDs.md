@@ -3,7 +3,7 @@ Although get5 converts all authentication formats to steam64 internally, get5 su
 
 ## Steam2
 
-This is currently what you see in CS:GO when you type ``status`` in console. It is of the format "STEAM_x:y:z". The y:z element is unique for each account. The x value is always 1 in CS:GO, but may be seen as 0 elsewhere. It's value doesn't matter. Additionally, y is always 0 or 1. It's value **does** matter for uniqueness!
+This is currently what you see in CS:GO when you type ``status`` in console. It is of the format "STEAM_x:y:z". The y:z element is unique for each account. The x value is always 1 in CS:GO, but may be seen as 0 elsewhere; its value doesn't matter. Additionally, y is always 0 or 1. It's value **does** matter for uniqueness!
 
 ## Steam3
 
