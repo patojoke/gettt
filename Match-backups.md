@@ -1,7 +1,7 @@
 Get5 contains its own backup system on top of the backup system Valve has built into CS:GO. Every round start and match end get5 writes out a backup file that contains all the info needed to restart the match where it left of. These files will generally be named something like ``get5_backup_match1_map0_round3.txt``.
 
 This file will contain:
-- path of the original match config (**This must still be present on the server for the backup restore to work!**)
+- the original match config data
 - series scores per team
 - current sides for each team
 - the built-in backup data CS:GO Valve created to restore money/weapons/current map score/etc.
@@ -14,6 +14,5 @@ You may backup from the last round (e.g., someone on both teams typing ``!stop``
 
 ### Steps to restore a backup to a restarted/different server
 
-1. Copy the original match config (with the same path) to the new match server
-2. Copy the last get5_backup_* file (if you sort by most recently written, you should find it under the ``csgo`` directory)
-3. Run ``get5_loadbackup <backupfile>`` on the backup file you copied.
+1. Copy the last get5_backup_* file (if you sort by most recently written, you should find it under the ``csgo`` directory)
+2. Run ``get5_loadbackup <backupfile>`` on the backup file you copied.
