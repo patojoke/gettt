@@ -9,6 +9,6 @@ The default cvar values are fit for most match systems, so you should change the
 
 ## Starting the match
 
-- Rather than creating a [match config](https://github.com/splewis/get5#match-schema), you should use the ``get5_creatematch`` when the server is on the correct map. You can use this via rcon (``rcon get5_creatematch``) or as a regular console command if you have the sourcemod changemap admin flag.
+Rather than creating a [match config](https://github.com/splewis/get5#match-schema), you should use the ``get5_creatematch`` when the server is on the correct map. You can use this via rcon (``rcon get5_creatematch``) or as a regular console command if you have the sourcemod changemap admin flag.
 
 Once you've done this, all that has to happen is teams to ready up to start the match.
