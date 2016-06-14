@@ -21,3 +21,44 @@ tldr: ban/ban/pick/pick/ban/ban/last map is 3rd map in series
 Each team vetoes 1 map, then alternating picking the maps (really only deciding the order of them). When a team picks a map, the other team will get side choice. A knife round will be used on map 5 to decide sides.
 
 tldr: ban/ban/pick/pick/pick/pick/last map is 5th map in series
+
+
+## Skipping the plugin's veto
+
+Often, vetoes are done on paper or via another website. In this case, you would want to enable the "skip_veto" value in the match config, and then (optionally) set the map_sides section to map side choices made by the teams.
+
+For example, with keyvalues:
+```
+"skip_veto"		"1"
+"map_sides"
+{
+	"team1_ct"		""
+	"team2_ct"		""
+	"knife"		""
+}
+"maplist"
+{
+	"de_cache"		""
+	"de_mirage"		""
+	"de_overpass"		""
+}
+```
+
+or with json:
+```
+"skip_veto": true,
+"map_sides":
+[
+	"team1_ct",
+	"team1_t",
+	"knife"
+],
+"maplist":
+[
+	"de_cache",
+	"de_mirage",
+	"de_overpass",
+]
+```
+
+Note that when the "map_sides" section is not present, the "side_type" value (one of "standard", "always_knife", or "never_knife" will be used).
