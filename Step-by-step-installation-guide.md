@@ -25,6 +25,8 @@ Download the smjansson_2.3.1.3_binaries.zip archive from https://forums.alliedmo
 #### 6. Install get5_apistats plugin (optional)
 If you want to use the [get5 web panel](https://github.com/splewis/get5-web) to manage matches and display stats, then you should install the get5_apistats plugin in addition to the get5 plugin. In addition to ``get5.smx`` in ``addons/sourcemod/plugins``, you should have copied ``get5_apistats.smx`` into that directory as well. Both plugins are included in releases/builds.
 
+Note: this requires that you installed the SteamWorks extension from step 6. The command ``get5_web_avaliable`` will tell you if this plugin was successfully installed. If not, it will reply with "unknown command".
+
 #### 7. Create a match config
 
 The readme describes the match schema format: https://github.com/splewis/get5#match-schema
