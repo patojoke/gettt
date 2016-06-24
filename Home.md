@@ -9,3 +9,5 @@ Links:
 - [Release downloads](https://github.com/splewis/get5/releases)
 - [Development builds](http://ci.splewis.net/job/get5/)
 - [This wiki](https://github.com/splewis/get5/wiki)
+
+**Warning:** get5 is a relatively new project and things change often. Information in this wiki is generally kept up to date to the lastest development builds, so releases may not contain all features described here.
