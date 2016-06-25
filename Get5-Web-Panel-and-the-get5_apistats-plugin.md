@@ -2,7 +2,7 @@ The [get5 web panel](https://github.com/splewis/get5-web) project can be used al
 
 To use the web panel, you must have both:
 - the get5 server plugin installed
-- the get5_apistats plugin installed (this **requires** the SteamWorks extension to be loaded to send HTTP requests)
+- the get5_apistats plugin installed (this **requires** both the SteamWorks extension and the smjansson extension)
 
 Installing the get5_apistats plugin only requires that you place it's plugin binary (``get5_apistats.smx``) in the ``addons/sourcemod/plugins`` as long as you have SteamWorks and get5 installed.
 
