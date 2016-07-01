@@ -15,3 +15,7 @@ The default cvar values are fit for most match systems, so you should change the
 Rather than creating a [match config](https://github.com/splewis/get5#match-schema), you should use the ``get5_scrim`` when the server is on the correct map. You can use this via rcon (``rcon get5_scrim``) or as a regular console command if you have the sourcemod changemap admin flag. This will force playout of all 30 rounds and skip the knife round. 
 
 Once you've done this, all that has to happen is teams to ready up to start the match.
+
+## Other things
+
+You probably want to change the ``mp_halftime_duration`` value in your live config, which is ``cfg/get5/live.cfg`` by default. The 60 seconds are probably too long for scrims - 15 is the normal value.
