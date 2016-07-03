@@ -44,7 +44,7 @@ See the [get5 include](https://github.com/splewis/get5/blob/master/scripting/inc
 ## MySQL stats
 
 Get5 ships with a (disabled by default) plugin called ``get5_mysqlstats`` that will save many of the stats to a MySQL database. To use this:
-- Create the tables using [this schema](https://github.com/splewis/get5/blob/master/misc/import_stats.sql)
+- Create the tables using [this schema](https://github.com/splewis/get5/blob/master/misc/import_stats.sql) (direct link: https://raw.githubusercontent.com/splewis/get5/master/misc/import_stats.sql)
 - Configure a ``"get5"`` database section in ``addons/sourcemod/configs/databases.cfg``
 - Make sure the ``get5_mysqlstats`` plugin is enabled (moved up a directory from ``addons/sourcemod/plugins/disabled`` directory)
 
