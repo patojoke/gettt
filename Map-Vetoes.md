@@ -1,6 +1,6 @@
 If your match config enabled the veto (not setting ``skip_veto`` to 1 or true), then the plugin will give veto menus to a player on each team. The player it gives it to will generally be the first player listed in the ``players`` section in the match config. All veto information given here assumed a 7-map pool. Other map-pool sides may not work as described here. It also assumes ``side_type`` is "standard" when describing side choices.
 
-Note: team1 always gets the first veto.
+Note: team1 (currently) always gets the first veto.
 
 #### BO1 Veto
 Each team alternatives vetoing, vetoing 3 maps each. The 7th map left will be played. A knife round will be used to decide what the starting sides are.
