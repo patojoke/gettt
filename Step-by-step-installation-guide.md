@@ -16,7 +16,7 @@ You can confirm you did this correctly by trying the command ``sm version``.
 
 #### 3. Install get5
 
-Extract the download archive into the csgo/ directory on the server. The only required file is actually just the ``get5.smx`` plugin binary in the ``addons/sourcemod/plugins`` directory. The example configs and plugin source code do not have to be uploaded.
+Extract the download archive into the csgo/ directory on the server. At the very least, the plugin binary ``get5.smx`` must go into ``addons/sourcemod/plugins``, and the translations file ``get5.phrases.txt`` must go into ``addons/sourcemod/translations``. You are strongly recommended just to copy the entire release directories into your server, which will include the default ``cfg/live.cfg`` and ``cfg/warmup.cfg`` files. 
 
 You can download from either the [last release](https://github.com/splewis/get5/releases) or the [last development build](http://ci.splewis.net/job/get5/lastSuccessfulBuild/).
 
