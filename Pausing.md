@@ -17,8 +17,8 @@ The default settings will allow each team 300 seconds (5 minutes) of overall pau
 - ``get5_pausing_enabled = 1`` 
 
 
-To use the newer Valve-announced pausing ruleset of "each team has 2 30-second pauses per-half", you would use the following cvars:
-- ``get5_max_pauses = 2``
-- ``get5_reset_pauses_each_half = 1`` 
+To use the newer Valve-announced pausing ruleset of "each team has 4 30-second pauses per-map", you would use the following cvars:
+- ``get5_max_pauses = 4``
+- ``get5_reset_pauses_each_half = 0`` 
 - ``get5_fixed_pause_time = 30`` 
 - ``get5_pausing_enabled = 1`` 
