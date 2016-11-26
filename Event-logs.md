@@ -34,29 +34,112 @@ L 11/26/2016 - 02:58:39: {
 to a file. You'd have to do some processing to handle parsing the logging timestamp before each json event, but it isn't very hard (a simple regex replacement would be fine).  
 
 
-## List of events
+## List of events and their params
+
+Some rules are followed in these settings:
+
+1. "Winner" is a match team, i.e. "team1" or "team2"
+1. "team" is a match team, i.e. "team1" or "team2"
+1. "side" is a CS team, i.e. "CT" or "T"
+1. "map_number" is 0-indexed
+1. client fields ("client", "attacker", "victim", etc.) will use %L sourcemod formatting
+1. "site" is "A" or "B"
 
 ### Series flow
-- series_start
-- series_end
-- map_veto
-- map_pick
-- side_picked
+- ``series_start``:
+    * team1_name
+    * team2_name
+
+- ``series_end``
+    * team1_series_score
+    * team2_series_score
+    * winner 
+
+- ``map_veto``
+    * team 
+    * map_name
+
+- ``map_pick``
+    * team 
+    * map_name
+    * map_number
+
+- ``side_picked``
+    * team
+    * map_name
+    * map_number
+    * side 
 
 ### Map flow
-- knife_start
-- knife_won
-- going_live
-- round_end
-- map_end
+- ``knife_start``
+    * map_name
+    * map_number
+
+- ``knife_won``
+    * map_name
+    * map_number
+    * winner
+    * selected_side
+    
+- ``going_live``
+    * map_name
+    * map_number
+    
+- ``round_end``
+    * map_name
+    * map_number
+    * winner_side
+    * winner
+    * team1_score
+    * team2_score
+    
+- ``map_end``
+    * map_name
+    * map_number
+    * winner
+    * team1_score
+    * team2_score
+    
 
 ### Client actions
-- player_death
-- bomb_planted
-- bomb_defused
-- bomb_exploded
-- client_say
+- ``player_death``
+    * map_name
+    * map_number
+    * attacker
+    * victim
+    * headshot
+    * weapon
+    * assister (optional)
+    * flash_assister (optional)
+    
+- ``bomb_planted``
+    * map_name
+    * map_number
+    * client
+    * site
+    
+- ``bomb_defused``
+    * map_name
+    * map_number
+    * client
+    * site
+    
+- ``bomb_exploded``
+    * map_name
+    * map_number
+    * client
+    * site
+    
+- ``client_say``
+    * map_name
+    * map_number
+    * client
+    * message
+    
 
 ### Miscellaneous 
-- match_config_load_fail
-- backup_loaded
+- ``match_config_load_fail``
+    * reason
+    
+- ``backup_loaded``
+    * file
