@@ -143,3 +143,7 @@ Some rules are followed in these settings:
     
 - ``backup_loaded``
     * file
+
+
+## Need a new event?
+Make a [issue](https://github.com/splewis/get5/issues/new).
