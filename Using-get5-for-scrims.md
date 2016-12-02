@@ -18,3 +18,5 @@ Once you've done this, all that has to happen is teams to ready up to start the 
 ## Changing scrim settings
 
 You can (and should) edit [addons/sourcemod/configs/get5/scrim_template.cfg](https://github.com/splewis/get5/blob/master/configs/get5/scrim_template.cfg). In this you can set any scrim-specific cvars in the ``cvars`` section. 
+
+The default settings will playout all 30 rounds and shorten up the halftime break.
