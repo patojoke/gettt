@@ -1,6 +1,6 @@
 While get5 is intended for matches (league matches, lan matches, cups, etc.), it can be used for everyday scrims/gathers/whatever as well. If that is your use case, you should do a few things differently.
 
-Note: these features are new to the 0.4.1-dev builds.
+Note: these features are new to the 0.5.0-dev builds.
 
 ## Cvars
 
@@ -9,7 +9,7 @@ By default, get5 kicks all players from the server if no match is loaded. You sh
 
 ## Starting the match
 
-Rather than creating a [match config](https://github.com/splewis/get5#match-schema), you should use the ``get5_scrim`` when the server is on the correct map. You can use this via rcon (``rcon get5_scrim``) or as a regular console command if you have the sourcemod changemap admin flag. 
+Rather than creating a [match config](https://github.com/splewis/get5#match-schema), you should use the ``get5_scrim`` when the server is on the correct map. You can use this via rcon (``rcon get5_scrim``) or as a regular console command if you have the sourcemod changemap admin flag. You could also type ``!scrim`` in chat.
 
 This command takes optional arguments: ``get5_scrim [other team name] [map name] [matchid]``. For example, if you're playing fnatic on dust2 you might run ``get5_scrim fnatic de_dust2``. The other team name defaults to "away" and the map name defaults to the current map. matchid defaults to "scrim".
 
