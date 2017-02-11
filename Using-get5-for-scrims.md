@@ -1,6 +1,6 @@
 While get5 is intended for matches (league matches, lan matches, cups, etc.), it can be used for everyday scrims/gathers/whatever as well. If that is your use case, you should do a few things differently.
 
-Note: these features are new to the 0.5.0+ version.
+Note: these features are new to the 0.5.0+ versions.
 
 ## Cvars
 
