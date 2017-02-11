@@ -13,7 +13,7 @@ You should either set these in the above file, or in the match config's ``cvars`
 
 # File name formatting
 
-Note: for these, setting the cvar to an empty string ("") will disable the file writing entirely. Valid substitutions are: ``TIME, MAPNAME, MAPNUMBER, MATCHID, TEAM1, TEAM2``.
+Note: for these, setting the cvar to an empty string ("") will disable the file writing entirely. Valid substitutions are (when surrounded by {}): TIME, MAPNAME, MAPNUMBER, MATCHID, TEAM1, TEAM2.
 
 - ``get5_time_format``: time format string (default ``"%Y-%m-%d_%H``), only affects if a {TIME} tag is used in other file-name formatting cvars
 - ``get5_demo_name_format``: format to name demo files in (default ``{MATCHID}_map{MAPNUMBER}_{MAPNAME}``)
@@ -22,7 +22,7 @@ Note: for these, setting the cvar to an empty string ("") will disable the file 
 
 # Backup system
 
-- ``get5_last_backup_file``: last match backup file get5 wrote in the current series
+- ``get5_last_backup_file``: last match backup file get5 wrote in the current series, this is automatically updated by get5 each time a backup file is written
 - ``get5_max_backup_age``: number of seconds before a get5 backup file is automatically deleted, 0 to disable
 
 # Miscellaneous
