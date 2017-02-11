@@ -42,7 +42,7 @@ Some rules are followed in these settings:
 1. "team" is a match team, i.e. "team1" or "team2"
 1. "side" is a CS team, i.e. "CT" or "T"
 1. "map_number" is 0-indexed
-1. client fields ("client", "attacker", "victim", etc.) will use %L sourcemod formatting
+1. client fields ("client", "attacker", "victim", etc.) will use [%L](https://wiki.alliedmods.net/Format_Class_Functions_(SourceMod_Scripting)#Format_Specifiers) sourcemod formatting
 1. "site" is "A" or "B"
 
 ### Series flow
