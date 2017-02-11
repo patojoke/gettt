@@ -146,4 +146,4 @@ Some rules are followed in these settings:
 
 
 ## Need a new event?
-Make a [issue](https://github.com/splewis/get5/issues/new).
+Make a [issue](https://github.com/splewis/get5/issues/new) or create a [pull request](https://github.com/splewis/get5/pulls) if you can implement it yourself.
