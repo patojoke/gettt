@@ -13,6 +13,8 @@ You should either set these in the above file, or in the match config's ``cvars`
 
 # File name formatting
 
+Note: for these, setting the cvar to an empty string ("") will disable the file writing entirely. Valid substitutions are: ``TIME, MAPNAME, MAPNUMBER, MATCHID, TEAM1, TEAM2``.
+
 - ``get5_time_format``: time format string (default ``"%Y-%m-%d_%H``), only affects if a {TIME} tag is used in other file-name formatting cvars
 - ``get5_demo_name_format``: format to name demo files in (default ``{MATCHID}_map{MAPNUMBER}_{MAPNAME}``)
 - ``get5_event_log_format``: format to write get5 event logs to (default ``logs/get5_match{MATCHID}.log``)
