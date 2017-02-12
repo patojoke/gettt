@@ -2,7 +2,7 @@ Note: these are auto-executed on plugin start by the auto-generated (the 1st tim
 
 You should either set these in the above file, or in the match config's ``cvars`` section. Note: cvars set in the ``cvars`` section will override other settings.
 
-# Pausing
+## Pausing
 
 - ``get5_max_pauses``: maximum number of pauses a team can use, 0=unlimited
 - ``get5_max_pause_time``: maximum number of time the game can spend paused by a team, 0=unlimited
@@ -11,7 +11,7 @@ You should either set these in the above file, or in the match config's ``cvars`
 - ``get5_pausing_enabled``: whether pausing (!pause command) is enabled
 
 
-# File name formatting
+## File name formatting
 
 Note: for these, setting the cvar to an empty string ("") will disable the file writing entirely. Valid substitutions are (when surrounded by {}): TIME, MAPNAME, MAPNUMBER, MATCHID, TEAM1, TEAM2.
 
@@ -20,12 +20,12 @@ Note: for these, setting the cvar to an empty string ("") will disable the file 
 - ``get5_event_log_format``: format to write get5 event logs to (default ``logs/get5_match{MATCHID}.log``)
 - ``get5_stats_path_format``: path where stats are output each map end if set
 
-# Backup system
+## Backup system
 
 - ``get5_last_backup_file``: last match backup file get5 wrote in the current series, this is automatically updated by get5 each time a backup file is written
 - ``get5_max_backup_age``: number of seconds before a get5 backup file is automatically deleted, 0 to disable
 
-# Miscellaneous
+## Miscellaneous
 
 - ``get5_autoload_config``: a config file to autoload on map starts if no match is loaded
 - ``get5_check_auths``: whether the steamids from a "players" section are used to force players onto teams (default 1)
