@@ -11,4 +11,6 @@ These are relatively new. They are of the format "[U:1:x]". The "x" value is wha
 
 ## Steam64
 
-The 64-bit integer steam64 is what is used on steam community profile links by default. These always start with the string "7656119" at least -  they do not start at 0! This is the recommended format for all input to get5.
+The 64-bit integer steam64 is what is used on steam community profile links by default. These always start with the string "7656119" at least -  they do not start at 0! This is generally the recommended format for input to get5.
+
+**NOTE: you may have trouble using steam64 ids inside a keyvalues (.cfg) match config. Prefer other formats for a .cfg match config file.** The Valve KeyValue parser will interpret any integer string as in integer (even if read as a string), and a steam64 id will not fit inside a SourceMod-internal 32-bit cell!**
