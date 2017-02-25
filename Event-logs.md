@@ -92,6 +92,14 @@ Some rules are followed in these settings:
     * winner
     * team1_score
     * team2_score
+
+- ``side_swap``
+    * map_name
+    * map_number
+    * team1_side
+    * team2_side
+    * team1_score
+    * team2_score
     
 - ``map_end``
     * map_name
