@@ -93,7 +93,7 @@ Some rules are followed in these settings:
     * team1_score
     * team2_score
 
-- ``side_swap``
+- ``side_swap`` (since 0.5.2)
     * map_name
     * map_number
     * team1_side
