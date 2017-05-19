@@ -32,6 +32,7 @@ Note: for these, setting the cvar to an empty string ("") will disable the file 
 - ``get5_kick_when_no_match_loaded``: whether to kick all clients if no match is loaded
 - ``get5_live_cfg``: config file executed when the game goes live
 - ``get5_live_countdown_time``: number of seconds used to count down when a match is going live
+- ``get5_message_prefix``: The tag applied before plugin messages
 - ``get5_stop_command_enabled``: whether the !stop command is enabled
 - ``get5_time_to_start``: time (in seconds_ teams have to ready up before forfeiting the match, 0=unlimited
 - ``get5_time_to_make_knife_decision``: time (in seconds) a team has to make a !stay/!swap decision after winning knife round, 0=unlimited
