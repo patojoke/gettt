@@ -19,6 +19,8 @@ This command takes optional arguments: ``get5_scrim [other team name] [map name]
 
 Once you've done this, all that has to happen is teams to ready up to start the match.
 
+**Note: you can do !swap to swap sides during the warmup phase if you want to start on a different side.**
+
 ## Changing scrim settings
 
 You can (and should) edit [addons/sourcemod/configs/get5/scrim_template.cfg](https://github.com/splewis/get5/blob/master/configs/get5/scrim_template.cfg). In this you can set any scrim-specific cvars in the ``cvars`` section. 
