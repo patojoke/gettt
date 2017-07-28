@@ -1,4 +1,4 @@
-# Finding get5 version
+## Finding get5 version
 
 You can either check the ``get5_version`` cvar or the version info from ``sm plugins``.
 
@@ -9,14 +9,14 @@ Otherwise, type
 ``sm plugins``, ``sm plugins 11``, ``sm plugins 22``, ... until you find get5.
 
 
-# Finding sourcemod version
+## Finding sourcemod version
 
 From the server console or in a client console, type:
 
 ``sm version``
 
 
-# Getting debug logs
+## Getting debug logs
 
 Set ``get5_debug 32``. It's easiest to set the cvar in your match configs or ``cfg/sourcemod/get5.cfg``.
 
