@@ -1,9 +1,3 @@
-# Finding sourcemod version
-
-From the server console or in a client console, type:
-
-``sm version``
-
 # Finding get5 version
 
 You can either check the ``get5_version`` cvar or the version info from ``sm plugins``.
@@ -13,6 +7,14 @@ If you have access to the server console or have sourcemod admin:
 
 Otherwise, type 
 ``sm plugins``, ``sm plugins 11``, ``sm plugins 22``, ... until you find get5.
+
+
+# Finding sourcemod version
+
+From the server console or in a client console, type:
+
+``sm version``
+
 
 # Getting debug logs
 
