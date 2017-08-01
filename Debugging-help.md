@@ -1,8 +1,3 @@
-## Getting error logs
-
-Check ``addons/sourcemod/logs``. The files are called something like ``error_20170831.log``.
-
-
 ## Finding get5 version
 
 You can either check the ``get5_version`` cvar or the version info from ``sm plugins``.
@@ -19,6 +14,9 @@ Otherwise, type
 From the server console or in a client console, type:
 
 ``sm version``
+## Getting error logs
+
+Check ``addons/sourcemod/logs``. The files are called something like ``error_20170831.log``.
 
 
 ## Getting debug logs
