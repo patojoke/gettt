@@ -20,7 +20,7 @@ From a plugin, you can use the ``void Get5_OnEvent(const char[] eventJson);`` fo
 
 You can also use the builtin ``logaddress_add`` command to add a server ip:port that is listening to the game server log and reading events (it could also read plain CS:GO server log lines - this is what eBot does).
 
-Finally, events can be logged by setting the ``get5_event_log_format`` cvar, which will write out text that looks like:
+Finally, events can be logged to a a file by setting the ``get5_event_log_format`` cvar (set the cvar to the file path pattern, e.g. ``{MATCHID}_map{MAPNUMBER}_{MAPNAME}.log``). The file will look something like:
 ```
 L 11/26/2016 - 02:58:39: {
     "matchid": "example_match",
@@ -31,7 +31,8 @@ L 11/26/2016 - 02:58:39: {
     }
 }
 ```
-to a file. You'd have to do some processing to handle parsing the logging timestamp before each json event, but it isn't very hard (a simple regex replacement would be fine).  
+
+You'd have to do some processing to handle parsing the logging timestamp before each json event, but it isn't very hard (a simple regex replacement would be fine).  
 
 
 ## List of events and their params
