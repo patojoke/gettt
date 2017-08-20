@@ -49,3 +49,5 @@ Get5 ships with a (disabled by default) plugin called ``get5_mysqlstats`` that w
 - Make sure the ``get5_mysqlstats`` plugin is enabled (moved up a directory from ``addons/sourcemod/plugins/disabled`` directory)
 
 Note that if you use this module, you can force the matchid used by the stats system by setting the ``get5_mysql_force_matchid`` convar in your matchconfig (the ``"cvars"`` section). If you don't do this, then the get5 matchid will be set to the next matchid returned by inserting into the ``get5_stats_matches`` table.
+
+If you are using the web panel and the get5_apistats plugin you **do not need this plugin** - the web panel has its own MySQL tables being updated.
