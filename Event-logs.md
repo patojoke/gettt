@@ -16,9 +16,9 @@ Events will have variable parameters depending on what type of event it is. In t
 
 ## Interfacing with events
 
-From a plugin, you can use the ``void Get5_OnEvent(const char[] eventJson);`` forward to do anything you like with get5 events. 
+From a plugin, you can use the ``void Get5_OnEvent(const char[] eventJson)`` forward to do anything you like with get5 events. 
 
-You can also use the builtin ``logaddress_add`` command to add a server ip:port that is listening to the game server log and reading events (it could also read plain CS:GO server log lines - this is what eBot does).
+You can also use the builtin server ``logaddress_add`` command to add a server ip:port that is listening to the game server log and reading events (it could also read plain CS:GO server log lines - this is what eBot does).
 
 Finally, events can be logged to a a file by setting the ``get5_event_log_format`` cvar (set the cvar to the file path pattern, e.g. ``{MATCHID}_map{MAPNUMBER}_{MAPNAME}.log``). The file will look something like:
 ```
