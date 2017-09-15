@@ -1,8 +1,8 @@
 ## Getting a debug dump
 
-**This is the most useful piece of information in bug reports.**
+**This is the most useful piece of information in bug reports.** It contains all the below information automatically, so doing this will make all the other steps unnecessary.
 
-Run ``get5_debuginfo`` on the server, and check the server's root ``csgo`` directory for a file called get5_debug.txt. Paste it (**not** a link to it) directly in the bug report. 
+Run ``get5_debuginfo`` on the server, and check the server's root ``csgo`` directory for a file called get5_debuginfo.txt. Paste it (**not** a link to it) directly in the bug report. 
 
 ## Finding get5 version
 
