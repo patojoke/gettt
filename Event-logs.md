@@ -93,8 +93,9 @@ Some rules are followed in these settings:
     * winner
     * team1_score
     * team2_score
+    * reason - the [CSRoundEndReason](https://sm.alliedmods.net/new-api/cstrike/CSRoundEndReason) (since 0.5.5+)
 
-- ``side_swap`` (since 0.5.2)
+- ``side_swap`` (since 0.5.2+)
     * map_name
     * map_number
     * team1_side
