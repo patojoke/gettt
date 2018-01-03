@@ -19,7 +19,9 @@ This command takes optional arguments: ``get5_scrim [other team name] [map name]
 
 Once you've done this, all that has to happen is teams to ready up to start the match.
 
-**Note: you can do !swap to swap sides during the warmup phase if you want to start on a different side.**
+#### Extra commands
+- You can do !swap in chat to swap sides during the warmup phase if you want to start on a different side.
+- You can use get5_ringer in console with a steamid to add a player to the "home" team as of 0.6.0
 
 ## Changing scrim settings
 
