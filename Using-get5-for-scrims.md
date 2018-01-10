@@ -22,6 +22,7 @@ Once you've done this, all that has to happen is teams to ready up to start the 
 #### Extra commands
 - You can do !swap in chat to swap sides during the warmup phase if you want to start on a different side.
 - You can use get5_ringer in console with a steamid to add a player to the "home" team as of 0.6.0
+- If you forget commands, use ``!get5`` in chat, and you will get a user friendly menu to do all the above (new in 0.6.0+).
 
 ## Changing scrim settings
 
