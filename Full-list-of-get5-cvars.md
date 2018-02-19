@@ -20,6 +20,11 @@ Note: for these, setting the cvar to an empty string ("") will disable the file 
 - ``get5_event_log_format``: format to write get5 event logs to (default ``logs/get5_match{MATCHID}.log``)
 - ``get5_stats_path_format``: path where stats are output each map end if set
 
+## Match management timers
+- ``get5_time_to_start``: time (in seconds) teams have to ready up before forfeiting the match, 0=unlimited
+- ``get5_time_to_make_knife_decision``: time (in seconds) a team has to make a !stay/!swap decision after winning knife round, 0=unlimited
+- ``get5_veto_countdown``: time (in seconds) to countdown before veto process commences
+
 ## Backup system
 
 - ``get5_last_backup_file``: last match backup file get5 wrote in the current series, this is automatically updated by get5 each time a backup file is written
@@ -34,8 +39,6 @@ Note: for these, setting the cvar to an empty string ("") will disable the file 
 - ``get5_live_countdown_time``: number of seconds used to count down when a match is going live
 - ``get5_message_prefix``: The tag applied before plugin messages
 - ``get5_stop_command_enabled``: whether the !stop command is enabled
-- ``get5_time_to_start``: time (in seconds_ teams have to ready up before forfeiting the match, 0=unlimited
-- ``get5_time_to_make_knife_decision``: time (in seconds) a team has to make a !stay/!swap decision after winning knife round, 0=unlimited
 - ``get5_warmup_cfg``: config file executed in warmup periods
 - ``get5_print_damage``: whether to print damage reports on round ends
 - ``get5_damageprint_format``: formatting of damage reports: defaults to ``--> ({DMG_TO} dmg / {HITS_TO} hits) to ({DMG_FROM} dmg / {HITS_FROM} hits) from {NAME} ({HEALTH} HP)``
