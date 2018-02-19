@@ -38,4 +38,4 @@ Note: for these, setting the cvar to an empty string ("") will disable the file 
 - ``get5_time_to_make_knife_decision``: time (in seconds) a team has to make a !stay/!swap decision after winning knife round, 0=unlimited
 - ``get5_warmup_cfg``: config file executed in warmup periods
 - ``get5_print_damage``: whether to print damage reports on round ends
-- ``get5_damageprint_format``: formatting of damage reports: defaults to "--> ({DMG_TO} dmg / {HITS_TO} hits) to ({DMG_FROM} dmg / {HITS_FROM} hits) from {NAME} ({HEALTH} HP)"
+- ``get5_damageprint_format``: formatting of damage reports: defaults to ``--> ({DMG_TO} dmg / {HITS_TO} hits) to ({DMG_FROM} dmg / {HITS_FROM} hits) from {NAME} ({HEALTH} HP)``
