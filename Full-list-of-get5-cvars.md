@@ -9,6 +9,7 @@ You should either set these in the above file, or in the match config's ``cvars`
 - ``get5_reset_pauses_each_half``: whether pause limits are reset each halftime period (default 1)
 - ``get5_fixed_pause_time``: if nonzero, the fixed length all pauses will be
 - ``get5_pausing_enabled``: whether pausing (!pause command) is enabled
+- ``get5_allow_technical_pause``: whether technical pauses (!tech command) are enabled (default 1)
 
 
 ## File name formatting
