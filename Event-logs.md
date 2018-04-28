@@ -145,7 +145,16 @@ Some rules are followed in these settings:
     * map_number
     * client
     * message
-    
+
+- ``player_connect`` (since 0.6.0+)
+    * map_name
+    * map_number
+    * client
+
+- ``player_disconnect`` (since 0.6.0+)
+    * map_name
+    * map_number
+    * client
 
 ### Miscellaneous 
 - ``match_config_load_fail``
