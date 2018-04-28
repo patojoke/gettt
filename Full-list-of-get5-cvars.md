@@ -25,6 +25,7 @@ Note: for these, setting the cvar to an empty string ("") will disable the file 
 - ``get5_time_to_start``: time (in seconds) teams have to ready up before forfeiting the match, 0=unlimited
 - ``get5_time_to_make_knife_decision``: time (in seconds) a team has to make a !stay/!swap decision after winning knife round, 0=unlimited
 - ``get5_veto_countdown``: time (in seconds) to countdown before veto process commences
+- ``get5_end_match_on_empty_server``: whether the match is ended with no winner if all players leave (note: this will happen even if all players disconnect even in warmup with the intention to reconnect!)
 
 ## Backup system
 
