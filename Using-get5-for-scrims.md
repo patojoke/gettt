@@ -35,3 +35,7 @@ You also may want to lower tv_delay and other settings in your [live config](htt
 ## How to prevent [practicemode](https://github.com/splewis/csgo-practice-mode) from starting during a game?
 
 I suggest adding the ``sm_practicemode_can_be_started`` cvar (setting to 0) in your live config. get5 generally resets all cvars set in the live config once the match ends, so it will be restored to 1 after your scrim.
+
+## Other tips
+
+If you have a coach, I'd suggest installing the csgo_hearcoach plugin, it allows coaches to talk in deadtalk with your teammates (this used to be normal CS:GO behavior, but a CS:GO update changed it). You can download the csgo_hearcoach plugin from http://dl.whiffcity.com/plugins/sm-misc/. Just put the file in ``addons/sourcemod/plugins``. This comes from my collection of plugins at https://github.com/splewis/sm-misc.
