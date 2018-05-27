@@ -38,4 +38,4 @@ I suggest adding the ``sm_practicemode_can_be_started`` cvar (setting to 0) in y
 
 ## Other tips
 
-If you have a coach, I'd suggest installing the csgo_hearcoach plugin, it allows coaches to talk in deadtalk with your teammates (this used to be normal CS:GO behavior, but a CS:GO update changed it). You can download the csgo_hearcoach plugin from http://dl.whiffcity.com/plugins/sm-misc/. Just put the file in ``addons/sourcemod/plugins``. This comes from my collection of plugins at https://github.com/splewis/sm-misc.
+If you have a coach, I'd suggest installing the csgo_hearcoach plugin, it allows coaches to talk in deadtalk with your teammates (this used to be normal CS:GO behavior, but a CS:GO update changed it). You can download the csgo_hearcoach plugin from http://dl.whiffcity.com/plugins/sm-misc/. Just put the ``csgo_hearcoach.smx`` file in ``addons/sourcemod/plugins``. This comes from my [sm-misc](https://github.com/splewis/sm-misc) collection of plugins.
