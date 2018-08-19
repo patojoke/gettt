@@ -30,3 +30,7 @@ Check ``addons/sourcemod/logs``. The files are called something like ``error_201
 You have to set ``get5_debug 32`` for this to work. It's easiest to set the cvar in your match configs or ``cfg/sourcemod/get5.cfg``.
 
 Then check ``addons/sourcemod/logs/get5_debug.log``. You can also set ``get5_debug`` to a different value, see https://github.com/splewis/get5/blob/master/scripting/include/logdebug.inc#L31 for details.
+
+## Why isn't "latest" a useful version?
+
+Because it's not a version. Even if it's obvious what the "latest commit" or "latest release" is right now, it will make it much harder to understand the issue in the future when it won't be as obvious.
