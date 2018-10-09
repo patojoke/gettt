@@ -30,6 +30,8 @@ Note: this requires that you installed the SteamWorks extension from step 5. The
 
 #### 6. Create a match config
 
+**NOTE**: if you're just using get5 for scrims don't do this follow these steps: https://github.com/splewis/get5/wiki/Using-get5-for-scrims
+
 The readme describes the match schema format: https://github.com/splewis/get5#match-schema
 
 I recommend starting from the [example file](https://github.com/splewis/get5/blob/master/configs/get5/example_match.cfg) and modifying it. Note that many fields are optional. Only the "team1" and "team2" sections are actually required. So you can remove the "favored_percentage_team1" field, if you don't want it displayed/have no data for it.
