@@ -11,6 +11,8 @@ By default, get5 kicks all players from the server if no match is loaded. You sh
 
 You **must** edit [addons/sourcemod/configs/get5/scrim_template.cfg](https://github.com/splewis/get5/blob/master/configs/get5/scrim_template.cfg) and add your team's players to the "team1" section by their steamids (any format works). Any other player on the server will implicitly be on "team2".
 
+You can list however many players you want. Add all your coaches, analysts, ringers, and such. If someone on your list ends up being on the other team in a scrim, you can use the !ringer command to temporarily swap them (similarly, you can use !ringer to put someone not in the list, on your team temporarily).
+
 ## Starting the match
 
 Rather than creating a [match config](https://github.com/splewis/get5#match-schema), you should use the ``get5_scrim`` when the server is on the correct map. You can use this via rcon (``rcon get5_scrim``) or as a regular console command if you have the sourcemod changemap admin flag. You could also type ``!scrim`` in chat.
