@@ -32,7 +32,7 @@ You can (and should) edit [addons/sourcemod/configs/get5/scrim_template.cfg](htt
 
 The default settings will playout all 30 rounds and shorten up the halftime break.
 
-You also may want to lower tv_delay and other settings in your [live config](https://github.com/splewis/get5/blob/master/cfg/get5/live.cfg#L56) at ``cfg/get5/live.cfg``.
+You also may want to lower ``tv_delay`` (and maybe ``tv_enable``) and other settings in your [live config](https://github.com/splewis/get5/blob/master/cfg/get5/live.cfg#L56) at ``cfg/get5/live.cfg``.
 
 ## How to prevent [practicemode](https://github.com/splewis/csgo-practice-mode) from starting during a game?
 
