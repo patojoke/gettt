@@ -9,6 +9,10 @@ Once a match starts, the server will issue a ``tv_record`` command with a file b
 
 Setting ``get5_demo_name_format`` to `""` will disable demos.
 
+### Where are the demos?
+
+In the root `csgo` directory on the game server. All get5 is doing is issuing a ``tv_record`` command, so it's no different from manually running the command.
+
 ### Uploading match demo on game end
 
 Currently, get5 doesn't do any automatic upload of the demo file. For now, if you are willing to write code, you can use the ``void Get5_OnDemoFinished(const char[] filename)`` forward to do anything you want with the demo file.
