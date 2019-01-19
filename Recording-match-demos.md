@@ -15,4 +15,4 @@ In the root `csgo` directory on the game server. All get5 is doing is issuing a 
 
 ### Uploading match demo on game end
 
-Currently, get5 doesn't do any automatic upload of the demo file. For now, if you are willing to write code, you can use the ``void Get5_OnDemoFinished(const char[] filename)`` forward to do anything you want with the demo file.
+Currently, get5 doesn't do any automatic upload of the demo file. For now, if you are willing to write your own sourcepawn plugin, you can use the ``void Get5_OnDemoFinished(const char[] filename)`` forward that get5 provides to do anything you want with the demo file.
